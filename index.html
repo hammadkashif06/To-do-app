@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="left_menu">
+        <div class="left_menu_text">
+            My Tasks
+        </div>
+        <div class="options">
+            <div class="all-option option display_tasks_css">
+                <div class="option-circle display_tasks_circle">
+                </div>
+                <p>All</p>
+            </div>
+            <div class="completed-option option">
+                <div class="option-circle"></div>
+                <p>Completed</p>
+            </div>
+            <div class="remaining-option option">
+                <div class="option-circle"></div>
+                <p>Remaining</p>
+            </div>
+        </div>
+        <div class="left_menu_bottom">
+            <div class="moon_icon"><i class="fa-solid fa-moon"></i></div>
+            <p>Plan, Focus, Complete.</p>
+            <p>Make every day count</p>
+        </div>
+    </div>
+    <main>
+        <div class="menu_icon"><i class="fa-solid fa-bars-staggered"></i></div>
+        <div class="main_content">
+            <div class="main_text">
+                <div class="tasks_text">All Tasks</div>
+                <p>Your complete list of tasks, Make the day count!!!</p>
+            </div>
+            <div class="add_new_task">
+                <p>New Task</p>
+                <div class="intention">
+                    <input type="text" class="task_input" placeholder="Add an intention...">
+                    <button class="plus_icon">+</button>
+                </div>
+            </div>
+            <div class="all_tasks">
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
